@@ -1,3 +1,4 @@
+// source code from create vite
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
