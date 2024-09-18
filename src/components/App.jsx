@@ -1,19 +1,37 @@
-import { useState } from 'react'
-import './App.css'
-// import here from main file for mainComponents - thinking i can group the components in a main and then export/import them altogether 
-
-// import navbar, header, footer, and page contents
-// page contents will need to change based on user input being a slection of a button
-// certain style requirements pertaining to navbar**
+import { useState } from 'react';
+import { 
+  Header,
+  AboutMe,
+  Portfolio,
+  Contact,
+  Resume,
+  Footer, } from './mainComponents/main'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentSection, setCurrentSection] = useState('AboutMe');
+// i plan on changing where the about me and all that is - i want it to be on the home page - the welcome - with a list of icons beneath that shows what i am proficient in
+  const renderSection = () => {
+    switch (currentSection) {
+      case 'AboutMe':
+        return <AboutMe />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <AboutMe />;
+    }
+  };
 
   return (
-    <>
-    {/* this is where i will return the fully rendered page */}
-    </>
-  )
+    <div>
+      <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
+      {renderSection()}
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
