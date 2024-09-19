@@ -3,12 +3,13 @@
 //  Display the developer’s name.
 //  Implement navigation with links to: About Me, Portfolio, Contact, and Resume.
 //  Ensure the current section is highlighted in the navigation.
+import '../../css/header.css';
 
 function Header() {
  return (
-  <section>
+  <section className='headSection'>
     <h1>Ryan Shaffer</h1>
-    <nav>
+    <nav className='navSection'>
       <ul>
         <li><a href="#about">About me</a></li>
         <li><a href="#portfolio">Portfolio</a></li>

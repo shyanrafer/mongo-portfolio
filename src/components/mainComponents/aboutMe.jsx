@@ -7,7 +7,7 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode } from 'react-icons/fa'
 // need to import css for style
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="aboutMe">
       <h2>About Me</h2>
       <p>
         Hi, I’m Ryan Shaffer, a full-stack web developer with experience in building dynamic applications.

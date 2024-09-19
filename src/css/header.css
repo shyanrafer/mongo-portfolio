@@ -1,0 +1,27 @@
+/* https://www.color-hex.com/color-palette/29406 - for green color below */
+h1 {
+  color: #3f5a36;
+  font-size: 51px;
+}
+
+.headSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navSection {
+  width: 150px;
+  border: 2px solid #3f5a36;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3f5a36;
+}
+
