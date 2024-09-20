@@ -20,10 +20,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 <br/><br/>
-/* https://www.color-hex.com/color-palette/29406 - for #3f5a36 in header */
+- https://www.color-hex.com/color-palette/29406 - for #3f5a36 in header
 
 ## Contact
-preferred method of contact is email
+Preferred method of contact is email
 <br/>
 Email: ```ryanshaffer1324@gmail.com```
 <br/>
