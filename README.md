@@ -32,6 +32,8 @@ Email: ```ryanshaffer1324@gmail.com```
 Github profile: https://github.com/shyanrafer
 <br/>
 Project repo link: https://github.com/shyanrafer/react-portfolio
+<br/>
+Deployed project link (not funcitoning as currently => have to run npm start on local machine in order for app to run): https://shyanrafer.github.io/react-portfolio/
 
 ## Screenshots
 
