@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://shyanrafer.github.io/react-portfolio/",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "start": "vite",

@@ -23,11 +23,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 <br/><br/>
 - https://www.color-hex.com/color-palette/29406 - for #3f5a36 in header
+<br/><br/>
+On package.json, the Xpert learning assistant recommended having both the main and homepage field. 
 
 ## Contact
 Preferred method of contact is email
 <br/>
-Email: ```ryanshaffer1324@gmail.com```
+Email: ryanshaffer1324@gmail.com
 <br/>
 Github profile: https://github.com/shyanrafer
 <br/>
