@@ -10,11 +10,13 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  background-color: #7cae6b;
 }
 
 .navSection {
   width: 150px;
   border: 2px solid #3f5a36;
+  margin-right: 5px;
 }
 ul {
   list-style-type: none;
